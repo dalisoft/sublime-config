@@ -1,0 +1,87 @@
+{
+  "clients": {
+    // Frontend
+    "lsp-css": {
+      "enabled": true
+    },
+    "lsp-html": {
+      "enabled": true
+    },
+    // Basics
+    "lsp-json": {
+      "enabled": true
+    },
+    "lsp-yaml": {
+      "enabled": true
+    },
+    // DevOps basics
+    "lsp-bash": {
+      "enabled": true
+    },
+    "lsp-dockerfile": {
+      "enabled": true
+    },
+    // Javascript / TypeScript
+    "lsp-eslint": {
+      "enabled": true
+    },
+    "lsp-typescript": {
+      "enabled": true
+    },
+    // GraphQL
+    "lsp-graphql": {
+      "enabled": true
+    },
+    // Python
+    "lsp-pyright": {
+      "enabled": true
+    },
+    "pyls": {
+      "enabled": false
+    },
+    // PHP
+    "lsp-intelephense": {
+      "enabled": true
+    },
+    // C / C++
+    "clangd": {
+      "enabled": true
+    },
+    // GoLang
+    "gopls": {
+      "enabled": true
+    },
+    // OCaml
+    // Can be used for Reason
+    // as recommended
+    "ocaml": {
+      "enabled": false
+    },
+    // Reason/ReasonML
+    "rls": {
+      "command": [
+        "rustup",
+        "run",
+        "rls"
+      ],
+      "enabled": false
+    },
+    // Rust
+    "rust-analyzer": {
+      "enabled": true
+    }
+  },
+  "show_diagnostics_panel_on_save": 2,
+  "diagnostics_panel_include_severity_level": 3,
+  "log_debug": false,
+  "lsp_code_actions_on_save": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+  "lsp_format_on_save": true,
+  "show_code_actions": "bulb",
+  "show_diagnostics_count_in_view_status": true,
+  "show_diagnostics_severity_level": 3,
+  "show_references_in_quick_panel": true,
+  "show_symbol_action_links": true
+}

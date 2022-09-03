@@ -1,0 +1,11 @@
+{
+  "256color": true,
+  "brighten_bold_text": true,
+  "unix_term": "xterm-256color",
+  "scrollback_history_size": 5000,
+  "max_columns": 160,
+  "view_settings": {
+    "font_face": "Fira Code",
+    "rulers": []
+  }
+}

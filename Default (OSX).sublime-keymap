@@ -1,0 +1,100 @@
+[
+  {
+    "keys": [
+      "enter"
+    ],
+    "command": "commit_completion",
+    "context": [
+      {
+        "key": "auto_complete_visible"
+      }
+    ]
+  },
+  {
+    "keys": [
+      "super+alt+enter"
+    ],
+    "command": "lsp_symbol_definition",
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": true,
+      }
+    ]
+  },
+  {
+    "keys": [
+      "super+shift+c"
+    ],
+    "command": "lsp_format_document",
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": true
+      }
+    ]
+  },
+  {
+    "args": {
+      "panel": "find",
+      "reverse": false
+    },
+    "command": "show_panel",
+    "keys": [
+      "super+f"
+    ]
+  },
+  {
+    "args": {
+      "panel": "replace",
+      "reverse": false
+    },
+    "command": "show_panel",
+    "keys": [
+      "super+r"
+    ]
+  },
+  {
+    "command": "toggle_side_bar",
+    "keys": [
+      "ctrl+n"
+    ]
+  },
+  {
+    "command": "terminus_close",
+    "context": [
+      {
+        "key": "terminus_view"
+      }
+    ],
+    "keys": [
+      "super+w"
+    ]
+  },
+  {
+    "args": {
+      "cwd": "${file_path:${folder}}"
+    },
+    "command": "terminus_open",
+    "keys": [
+      "super+shift+`"
+    ]
+  },
+  {
+    "args": {
+      "cwd": "${file_path:${folder}}"
+    },
+    "command": "toggle_terminus_panel",
+    "keys": [
+      "super+`"
+    ]
+  },
+  {
+    "command": "lsp_show_diagnostics_panel",
+    "keys": [
+      "ctrl+`"
+    ]
+  }
+]
