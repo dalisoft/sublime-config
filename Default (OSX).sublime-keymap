@@ -1,38 +1,23 @@
 [
   {
-    "keys": [
-      "enter"
-    ],
-    "command": "commit_completion",
-    "context": [
-      {
-        "key": "auto_complete_visible"
-      }
-    ]
-  },
-  {
-    "keys": [
-      "super+alt+enter"
-    ],
+    "keys": ["super+alt+enter"],
     "command": "lsp_symbol_definition",
     "context": [
       {
         "key": "selector",
         "operator": "equal",
-        "operand": true,
+        "operand": ["source.reason"]
       }
     ]
   },
   {
-    "keys": [
-      "super+shift+c"
-    ],
+    "keys": ["super+shift+c"],
     "command": "lsp_format_document",
     "context": [
       {
-        "key": "selector",
-        "operator": "equal",
-        "operand": true
+          "key": "selector",
+          "operator": "equal",
+          "operand": ["source.reason"]
       }
     ]
   },
