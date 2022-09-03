@@ -68,7 +68,7 @@
     "gray_antialias",
     "no_round"
   ],
-  "font_size": 14,
+  "font_size": 13,
   "git_diff_target": "head",
   "highlight_line": true,
   "highlight_modified_tabs": true,
@@ -103,5 +103,10 @@
   ],
   "typescript_auto_format": false,
   "update_check": false,
-  "word_wrap": true
+  "word_wrap": true,
+  "wrap_width": 80,
+  "rulers": [
+    80,
+    100
+  ]
 }
