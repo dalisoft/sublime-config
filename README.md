@@ -36,6 +36,13 @@ rm -rf ~/.config/sublime-text-3/Packages/User
 git clone https://github.com/dalisoft/sublime-sync.git ~/.config/sublime-text-3/Packages/User
 ```
 
+## Steps
+
+- Run commands shown as above
+- Open Sublime Text
+- Open Command Palette and run **Install Package Control**
+- Then **Satisfy Packages**
+
 ## Post-installation
 
 Just restart your Sublime Text
