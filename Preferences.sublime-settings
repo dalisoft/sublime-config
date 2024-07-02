@@ -1,6 +1,6 @@
 {
   "hardware_acceleration": "opengl",
-  "always_show_minimap_viewport": true,
+  "always_show_minimap_viewport": false,
   "auto_complete": true,
   "auto_complete_commit_on_tab": true,
   "auto_complete_triggers": [
@@ -63,12 +63,12 @@
     ".hg",
     "CVS"
   ],
-  "font_face": "Monaco",
+  "font_face": "JetBrains Mono NL",
   "font_options": [
     "gray_antialias",
     "no_round"
   ],
-  "font_size": 13,
+  "font_size": 14,
   "git_diff_target": "head",
   "highlight_line": true,
   "highlight_modified_tabs": true,
